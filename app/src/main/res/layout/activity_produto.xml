@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    tools:context=".Activities.ActivityProduto">
+
+    <EditText
+        android:id="@+id/edtIdProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código de Barra:"
+        android:inputType="numberSigned" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Space>
+
+    <EditText
+        android:id="@+id/edtNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome:"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Space>
+
+    <EditText
+        android:id="@+id/edtQuantidadeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade desejada:"
+        android:inputType="numberSigned" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Space>
+
+    <EditText
+        android:id="@+id/edtPrecoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço do Produto:"
+        android:inputType="numberDecimal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></Space>
+
+    <Button
+        android:id="@+id/btnSalvarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+
+</LinearLayout>
